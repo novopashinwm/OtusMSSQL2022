@@ -1,5 +1,5 @@
 
-SELECT CustomerID, InvoiceID, InvoiceDate , *
+SELECT CustomerID, InvoiceID, InvoiceDate 
 FROM Sales.Invoices
 WHERE CustomerID IN 
 		(SELECT CustomerID
