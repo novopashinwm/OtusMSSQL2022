@@ -4,4 +4,4 @@ FROM Sales.Invoices
 WHERE CustomerID IN 
 		(SELECT CustomerID
 		FROM Sales.Customers
-		WHERE PostalAddressLine2 = 'Minville');
+		WHERE PostalAddressLine2 = 'Minville', 'All');
